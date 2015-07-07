@@ -894,7 +894,10 @@
         e.target.href = 'mailto:friend@example.com?body=' + window.location.toString();
     });
 
+    /* On Sandstorm, synchronize URL with Sandstorm address bar */
+    window.parent.postMessage({'setPath': location.pathname + location.hash}, '*');
 
   }); /* End of "document ready" jquery callback */
+
 
 })(); /* End of self executing function */
