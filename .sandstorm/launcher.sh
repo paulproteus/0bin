@@ -26,6 +26,9 @@ while [ ! -e $MYSQL_SOCKET_FILE ] ; do
     sleep .2
 done
 
+# Make the content directory so 0bin can put things in places
+mkdir -p /var/content
+
 # Spawn uwsgi
 HOME=/var uwsgi \
         --socket $UWSGI_SOCKET_FILE \
