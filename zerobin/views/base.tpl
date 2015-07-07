@@ -98,7 +98,7 @@
               <li class="item local-storage">
                 <em class="grey">
                   Your previous pastes will be saved in  your browser using
-                  <a href="http://www.w3.org/TR/webstorage/">localStorage</a>.
+                  <a href="http://www.w3.org/TR/webstorage/">sessionStorage</a>.
                 </em>
               </li>
               <li class="item no-local-storage">
