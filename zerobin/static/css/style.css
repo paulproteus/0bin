@@ -388,3 +388,8 @@ canvas {
 #content.hover {
 	background-color: #eee;
 }
+
+/* on Sandstorm, hide the 0bin top bar */
+.navbar {
+    display: none;
+}
