@@ -1,0 +1,1 @@
+{"virtualbox":{"/opt/app":{"guestpath":"/opt/app","hostpath":"/home/paulproteus/projects/0bin-package/0bin","disabled":false},"/host-dot-sandstorm":{"guestpath":"/host-dot-sandstorm","hostpath":"/home/paulproteus/.sandstorm","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/paulproteus/projects/0bin-package/0bin","disabled":false}}}
